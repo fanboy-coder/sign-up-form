@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up-form.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="background">
+            <div class="logo-container">
+                <img class="logo" src="../sign-up-form/images/odin-lined.png">
+                <p class="odin">ODIN</p>
+            </div>
+            <p id="credit">Photo by <u><a id="ext-link" href="https://unsplash.com/@haliewestphoto">Halie West</u></a> on <u><a id="ext-link" href="https://unsplash.com/">Unsplash</a></u></p>
+        </div>
+        <div class="content">
+            <div class="sign-up">
+                <div class="intro">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started!</p><p>You <em>know</em> you want to.</p>
+                </div>
+                <form>
+                    <legend>Let's do this!</legend>
+                    <div class="parameter">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="field" name="first-name"required>
+                    </div>
+                    <div class="parameter">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="field" name="last-name" required>
+                    </div>
+                    <div class="parameter">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="field" name="email" required>
+                    </div>
+                    <div class="parameter">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="number" id="field" name="phone-number" maxlength="9" required>
+                    </div>
+                    <div class="parameter" id="password">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password-field" name="password" minlength="8" required>
+                    </div>
+                    <div class="parameter">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password-field" name="confirm-password" minlength="8" required>
+                    </div>
+                </form>
+            </div>
+            <div class="sign-in">
+                <button class="btn">Create Account</button>
+                <p>Already have an account? <a href="" id="log-in">Log in</a></p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
